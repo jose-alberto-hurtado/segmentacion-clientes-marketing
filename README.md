@@ -87,4 +87,5 @@ Proyecto desarrollado por José Alberto Hurtado Echeverría
 [GitHub](https://github.com/jose-alberto-hurtado)
 
 ---
+▶️ [Abrir notebook en Google Colab](https://colab.research.google.com/github/jose-alberto-hurtado/segmentacion-clientes-marketing/blob/main/Segmentacion_Clientes_Marketing.ipynb)
 
