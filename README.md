@@ -43,12 +43,23 @@ Utilizar **clustering con K-Means** para agrupar clientes con características s
 
 ## Principales Hallazgos
 
-| Cluster | Descripción                            | Características Destacadas                             |
-|--------|-----------------------------------------|--------------------------------------------------------|
-| 0      | Alto ingreso, alto gasto                | Clientes rentables, frecuentes y con alto poder adquisitivo |
-| 1      | Bajo ingreso, bajo gasto                | Segmento de bajo valor, ideal para campañas de retención |
-| 2      | Ingreso medio, gasto medio              | Clientes estables, potencial para fidelización         |
-| 3      | Clientes recientes, bajo gasto          | Compradores nuevos con posibilidad de crecer su ticket promedio |
+### Segmentos de Clientes
+
+| Cluster | Descripción                    | Características Destacadas                                      |
+|---------|--------------------------------|------------------------------------------------------------------|
+| 0       | Alto ingreso, alto gasto       | Clientes rentables, frecuentes y con alto poder adquisitivo     |
+| 1       | Bajo ingreso, bajo gasto       | Segmento de bajo valor, ideal para campañas de retención        |
+| 2       | Ingreso medio, gasto medio     | Clientes estables, potencial para fidelización                  |
+| 3       | Clientes recientes, bajo gasto | Compradores nuevos con posibilidad de crecer su ticket promedio |
+
+- El **Cluster 0** es el más rentable y debe ser enfocado con beneficios premium.  
+- El **Cluster 3** agrupa a clientes recientes y podría activarse con campañas de bienvenida o *upselling*.  
+- El análisis visual con PCA y heatmaps confirmó la separación clara de los segmentos.
+
+---
+
+## Conclusiones
+
 
 - El **Cluster 0** es el más rentable y debe ser enfocado con beneficios premium.
 - El **Cluster 3** agrupa a clientes recientes y podría activarse con campañas de bienvenida o upselling.
